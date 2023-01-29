@@ -1,0 +1,9 @@
+{% extends "_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+    <h1 class="title" align="center">
+        Welcome, {{ name }}! This is your profile.
+    </h1>
+    <h3>{{ email }}</h3>
+{% endblock %}
